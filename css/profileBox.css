@@ -1,0 +1,42 @@
+div.box{
+    width: 600px;
+	border-radius: 5px;
+	border: solid 5px #ff7600; 
+    padding-top: 30px;
+	padding-bottom: 50px;
+	text-align: center;
+	overflow: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: #fff;
+	background: rgba(255, 186, 0, 0.04);
+	box-shadow: 0 5px 20px rgba(0,0,0,0.30);
+	transition: width .5s ;
+}
+
+.box-image{
+	border: solid 7px #ff7600;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.box h1{
+	font-size: 30px;
+    letter-spacing: 2px;
+
+}
+
+.box h5{
+	font-weight: 100;
+    font-size: 18px;
+    text-decoration: none;
+	letter-spacing: 1px;
+}   
+
+
+@media only screen and (max-width: 768px){
+	div.box{
+    	width: 80%;
+	}
+}

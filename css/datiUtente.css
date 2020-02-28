@@ -1,0 +1,80 @@
+/*seleziona immagine */
+div.FileInput{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 4;
+    width: 380px;
+    height: 55px;
+    border-radius: 8px;
+    border: 2px solid #db8235;
+    background-color: #6a533d;
+	transition: 0.3s;
+}
+
+div.FileInput:hover{
+    background-color: #db7535;
+}
+
+input[type='file']{
+    position: absolute;
+    border-radius: 8px;
+    width: 380px;
+    height: 55px;
+    opacity: 0;
+}
+
+span.InputValue{
+	pointer-events: none;
+    font-weight: bold;
+    position: relative;
+	text-align: center;
+    text-overflow: ellipsis;
+    max-width: 280px;
+    overflow: hidden;
+    top: 20px;
+   
+    font-size: 14px;
+    color: #FFF;
+}
+
+/*messaggio di errore*/
+#message{
+    color:red;
+}
+
+/*Text input per l'inserimento dei dati all'accesso, modifica ecc..*/
+input.Dati{
+    width:40%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+input.Dati:focus{
+    border-color: #db8235;
+    box-shadow: 0 0 8px 0 #db8235;
+}
+
+h4.Dati{
+    text-align: center; 
+    margin: 5px;
+}
+
+a.Dati{  
+    text-decoration: none;   
+}
+
+@media only screen and (max-width: 768px){
+	
+	div.FileInput{   
+    	width: 40%;
+	}
+	span.InputValue{
+    	top: 15px;
+	}
+	
+}

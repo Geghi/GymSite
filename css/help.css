@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC&display=swap);
+
+.LogoHelp{
+	position: absolute;
+	float: left;
+	width: 110px;
+	top: 20px;
+	left: 70px;
+	margin: 0 auto;
+}
+
+.HelpHome{
+	text-decoration: none;
+}
+
+.redirect{
+	font-weight: bold;
+	font-size: 40px;
+	color: #ff8720;
+}
+
+.redirectDiv{
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.Helph2{
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: inherit;
+	margin-left: 200px;
+	margin-top: 45px;
+	font-size: 40px;
+	color: #ff8720;
+}
+
+.Help{
+	padding-right: 150px;
+	font-size: 24px;
+	text-align: inherit;
+	margin-left: 100px;
+	color: #fff;
+}
+
+.HelpUl {
+	list-style-type: none; 
+}

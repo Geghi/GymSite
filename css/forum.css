@@ -1,0 +1,87 @@
+/*Tabella di visualizzazione delle categorie, degli argomenti e dei post*/
+table{
+    margin: auto;
+    text-align: center;
+    background-color: white;
+   	border-collapse: collapse;
+    width: 80%;
+}
+
+div.LikeDiv{
+	display: flex;
+	justify-content: center;
+	height: 60px;
+	align-items: center;
+}
+
+div.Tabella{
+    margin: 0 auto;
+	overflow-y: scroll;
+	overflow-x: hidden;
+    max-height: 700px;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+h3.Post{
+    color:#000;
+    text-align: center;
+}
+
+th, td{
+    word-wrap: break-word; 
+	height: 40px;
+	max-width: 420px;
+    padding: 10px;
+	transition: all .5s ease-in-out;
+}
+
+th{
+	position: sticky;
+    background-color: #cf7a1f;
+    color: #FFF;
+    font-size: 18px;
+	border-bottom: solid 3px #b53f00;
+	text-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+a.TableContent{
+    text-decoration: none;
+    color: #000;
+}
+
+a.TableContent:hover{
+	font-weight: bold;
+    color: #ce6f0a;
+}
+
+
+.item:hover{
+    background-color: #cf5f1f;
+}
+
+/*textarea relativa all'aggiunta di un post*/
+textarea{
+    width: 50%;
+    height: 90px;
+}
+
+/*textarea relativa all'aggiunta di una categoria o di un post*/
+textarea.Dati{
+    width: 60%;
+    height: 150px;
+}
+
+
+@media only screen and (max-width: 768px){
+	th, td{
+		max-width: 140px;
+		padding: 2px;
+	}
+	
+	th{
+		font-size: 14px;
+	}
+}

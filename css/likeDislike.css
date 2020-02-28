@@ -1,0 +1,37 @@
+.Like0{
+    background-image: url('../css/Immagini/Like0.png');
+	float:left;
+}
+
+.Like1{
+    background-image: url('../css/Immagini/Like1.png');
+	float:left;
+}
+
+.Dislike1{
+	margin-top: 5px;
+    background-image: url('../css/Immagini/Dislike1.png');
+	float:left;
+}
+
+.Dislike0{
+	margin-top: 5px;
+    background-image: url('../css/Immagini/Dislike0.png');
+	float: left;
+}
+
+.LikeDislike{
+	width: 40px;
+	height: 40px;
+	background-size: cover;
+
+}
+
+
+@media only screen and (max-width: 768px){
+	.LikeDislike{
+		width: 30px;
+		height: 30px;
+	}
+	
+}

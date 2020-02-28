@@ -1,0 +1,48 @@
+hr{
+    border: 0;
+    height: 1.5px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+.orari{
+	margin-top: -20px;
+}
+
+#Prenotazione{
+	position: absolute;
+}
+
+a.Corsi{
+    text-decoration: none;
+}
+
+div.MenuCorsi{
+    margin: 0 auto;
+    width: 600px;
+}
+
+div.Bottom{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 1), rgba(0, 0, 0, 0));
+}
+
+h5.BackToTop{
+    color:#000;
+}
+
+.immagini{
+	width: 700px;
+	height: 400px;
+	box-shadow: 0 0 30px rgba(0,0,0,0.3);
+	transition: width 0.4s, height 0.4s ease-in-out;
+}
+
+@media only screen and (max-width: 768px){
+	.immagini{
+		width: 80%;
+		height: 80%;
+	}
+
+	div.MenuCorsi{
+		width: 70%;
+	}
+}

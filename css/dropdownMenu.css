@@ -1,0 +1,17 @@
+/*menu a tendina*/
+.dropdown{
+    position: relative;
+    transform: translateY(40%);
+	border-radius: 20px;
+}
+
+.dropdown > select{
+    background: #cf7a1f;
+    color: #FFF;
+    padding: 10px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0,0,0,5);
+}
